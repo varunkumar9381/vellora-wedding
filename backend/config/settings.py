@@ -4,7 +4,11 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 SECRET_KEY = "django-insecure-change-this-in-production"
 DEBUG = True
-ALLOWED_HOSTS = ["127.0.0.1", "localhost"]
+ALLOWED_HOSTS = [
+    "vellora-wedding-oxbr.onrender.com",
+    "localhost",
+    "127.0.0.1",
+]
 
 INSTALLED_APPS = [
     "django.contrib.admin",
